@@ -1,0 +1,42 @@
+{
+  "name": "appium-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "WebdriverIO",
+    "WebDriver",
+    "appium",
+    "native app",
+    "ios"
+  ],
+  "author": "Shibobrota Das",
+  "license": "ISC",
+  "dependencies": {
+    "@wdio/sync": "^5.6.0",
+    "appium": "^1.12.1",
+    "assert": "^1.4.1",
+    "base64-to-image": "^1.0.2",
+    "chai": "^4.2.0",
+    "mochawesome-report-generator": "^3.1.5",
+    "mz": "^2.7.0",
+    "resemblejs": "^3.1.0",
+    "wd": "^1.11.1",
+    "wdio-mochawesome-reporter": "^2.0.1",
+    "wdio-sync": "^0.7.3",
+    "webdriverio": "^5.4.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@wdio/cli": "^5.6.2",
+    "chai": "^4.1.2",
+    "mocha": "^6.0.2",
+    "mochawesome": "^3.1.1",
+    "wd": "^1.5.0"
+  }
+}

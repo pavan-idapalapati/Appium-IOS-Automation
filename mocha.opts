@@ -1,0 +1,4 @@
+--require @babel/register
+--timeout 1800000
+--reporter mochawesome
+--reporter-options overwrite=true,reportTitle=My\ Custom\ Title,showPassed=true
